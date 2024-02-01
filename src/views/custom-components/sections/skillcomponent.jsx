@@ -2,7 +2,7 @@
 import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 
-const PricingComponent = () => {
+const SkillComponent = () => {
   return (
     <div>
       <div className="spacer bg-light">
@@ -16,14 +16,6 @@ const PricingComponent = () => {
       </div>
       <div className="pricing8 spacer b-t">
         <Container>
-          {/* <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h2 className="title">PROFESSIONAL EXPERIENCE</h2>
-              <h6 className="subtitle">
-                We offer 100% satisafaction and Money back Guarantee
-              </h6>
-            </Col>
-          </Row> */}
           <Row className="m-t-40">
             <Col md="4" className="ms-auto pricing-box align-self-center">
               <Card className="b-all">
@@ -78,4 +70,4 @@ const PricingComponent = () => {
   );
 };
 
-export default PricingComponent;
+export default SkillComponent;

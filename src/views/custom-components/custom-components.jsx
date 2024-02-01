@@ -9,8 +9,8 @@ import Footer from "../../components/footer/footer.jsx";
 // sections for this page
 
 import PortfolioComponent from "./sections/portfoliocomponent.jsx";
-import PricingComponent from "./sections/pricingcomponent.jsx";
 import ContactComponent from "./sections/contactcomponent.jsx";
+import SkillComponent from "./sections/skillcomponent.jsx";
 
 const CustomComponents = () => {
   return (
@@ -20,7 +20,7 @@ const CustomComponents = () => {
         <div className="container-fluid">
           <HeaderBanner2 />
           <PortfolioComponent />
-          <PricingComponent />
+          <SkillComponent />
           <ContactComponent />
         </div>
       </div>

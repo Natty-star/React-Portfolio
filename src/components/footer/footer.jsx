@@ -13,22 +13,14 @@ const Footer = () => {
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Phone</h5>
-            <p>
-              Reception : +205 123 4567 <br />
-              Office : +207 235 7890
-            </p>
+            <p>Phone : +641 819 2347</p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Email</h5>
             <p>
               Office :{" "}
               <a href="#" className="link">
-                info@wrappixel.com
-              </a>{" "}
-              <br />
-              Site :{" "}
-              <a href="#" className="link">
-                wrapkit@wrappixel.com
+                natnael.gudeta@miu.edu
               </a>
             </p>
           </Col>

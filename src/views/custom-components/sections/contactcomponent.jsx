@@ -81,17 +81,19 @@ const ContactComponent = () => {
                               name="name"
                               onChange={handleChange}
                               Value={formData.name}
+                              required
                             />
                           </FormGroup>
                         </Col>
                         <Col lg="6">
                           <FormGroup className="m-t-15">
                             <Input
-                              type="text"
+                              type="email"
                               placeholder="email"
                               name="email"
                               onChange={handleChange}
                               value={formData.email}
+                              required
                             />
                           </FormGroup>
                         </Col>
@@ -103,6 +105,7 @@ const ContactComponent = () => {
                               placeholder="message"
                               onChange={handleChange}
                               value={formData.message}
+                              required
                             />
                           </FormGroup>
                         </Col>
